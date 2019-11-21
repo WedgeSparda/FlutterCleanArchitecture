@@ -6,8 +6,8 @@ import '../../../../core/error/failures.dart';
 import '../../../../core/network/network_info.dart';
 import '../../domain/entities/number_trivia.dart';
 import '../../domain/repositories/number_trivia_repository.dart';
-import '../datasources/number_trivia_local_datasource.dart';
-import '../datasources/number_trivia_remote_datasource.dart';
+import '../datasources/number_trivia_local_data_source.dart';
+import '../datasources/number_trivia_remote_data_source.dart';
 
 typedef Future<NumberTrivia> _ConcreteOrRandomChoose();
 
